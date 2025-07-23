@@ -1,17 +1,17 @@
 {
-  "name": "movie-finder",
+  "name": "movie-finder-cra",
   "version": "1.0.0",
-  "description": "Simple Movie Finder App with Supabase + OpenAI",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel index.html --open"
-  },
+  "private": true,
   "dependencies": {
     "@supabase/supabase-js": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
-  "devDependencies": {
-    "parcel": "^2.9.3"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
